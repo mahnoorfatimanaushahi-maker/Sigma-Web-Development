@@ -1,0 +1,41 @@
+Block Elements (Most Commonly used first)
+
+<div>: A generic container for flow content.
+<p>: Paragraph.
+<h1>, <h2>, <h3>, <h4>, <h5>, <h6>:Heading.
+<ul>: Unordered list.
+<ol>: Ordered list.
+<li>: List item.
+<form>: A section containing form controls.
+<table>:Table.
+<section>: A standalone section of a document.
+<header>: A container for introductory content or set of navigation links.
+<footer>: Footer of section pr page.
+<nav>: A section of a page that contain navigation links.
+<article>: A self contained composition in a document.
+<main>: Main content of a document.
+<pre>: Prefornatted text.
+<dl>: Description list.
+<dt>: Term in description list.
+<dd>: Description in description list.
+<hr>: A thenatic break or horizontal rule.
+<tfoot>: Footer of table.
+
+
+Inline Elements (Most Commonly used first)
+
+<a>: Anchor or hyperlink.
+<img>: Image.
+<input>: Input field.
+<span>: Generic inline element.
+<label>: Label for a forn element.
+<em>: Emphasized text.
+<stong>: Strong enphasis.
+<br>: Line break.
+<code>: Code snippet.
+<b>: Bold text.
+<i>: Italic text.
+<u>: Underlined text.
+<small>: Smaller text.
+<sub>: Subscript.
+<sup>:Superscript.
