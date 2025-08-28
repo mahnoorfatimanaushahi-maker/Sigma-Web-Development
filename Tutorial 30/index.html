@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Variables</title>
+    <style>
+        :root{
+            --color: pink;
+            --seccolor: rgb(226, 155, 168);
+            --defpad: 23px;
+            --defop: 0.4;
+        }
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    ul{
+        display: flex;
+      }
+      ul li{
+        /* opacity: 0.3; */
+        list-style: none;
+        /* padding: 34px; */
+        padding: var(--defpad);
+       border: 2px solid var(--seccolor)
+       
+      }
+      ul li:first-child{
+        /* --color  rgb(148, 131, 89);) */
+        background-color: var(--color,black);
+      }
+.nav{
+    /* background-color: green; */
+    background-color: var(--color);
+}
+.container{
+    /* background-color: lightgreen; */
+    background-color: var(--seccolor);
+}
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contacts</li>
+        </ul>
+    </div>
+    <div class="container">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error ullam est nostrum natus, quisquam voluptate animi voluptatibus molestiae similique totam iste minima dolore facilis aut assumenda. Hic odit nihil perspiciatis at est vitae temporibus, magnam, cumque, quas unde maiores. Quisquam, dolores. Quisquam, dolores.
+    </div>
+</body>
+</html>
